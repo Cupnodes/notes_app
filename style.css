@@ -7,4 +7,42 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #7bdaf3;
+    flex-wrap: wrap;
+}
+
+.notes {
+    background-color: #fff;
+    height: 400px;
+    width: 800px;
+}
+
+.notes .tools {
+    background-color: #9ec862;
+    display: flex;
+    justify-content: flex-end;
+    padding: .5rem;
+}
+
+.notes .tools button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    margin-left: .5rem;
+}
+
+.notes .main {
+    height: 100%;
+    width: 100%;
+}
+
+.notes textarea {
+    border: none;
+    height: 100%;
+    width: 100%;
 }
